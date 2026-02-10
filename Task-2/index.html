@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Contact Form</h1>
+  <nav>
+    <a href="index.html" class="active">Contact</a>
+    <a href="todo.html">To-Do List</a>
+  </nav>
+</header>
+
+<main class="center">
+  <section class="contact-card">
+    <form id="contactForm">
+
+      <div class="field">
+        <label>Full Name</label>
+        <input type="text" id="name">
+      </div>
+
+      <div class="field">
+        <label>Email</label>
+        <input type="email" id="email">
+      </div>
+
+      <div class="field">
+        <label>Phone</label>
+        <input type="tel" id="phone">
+      </div>
+
+      <div class="field">
+        <label>Subject</label>
+        <select id="subject">
+          <option value="">Select</option>
+          <option>Feedback</option>
+          <option>Support</option>
+          <option>General</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Message</label>
+        <textarea id="message"></textarea>
+      </div>
+
+      <p id="formError" class="error"></p>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>
