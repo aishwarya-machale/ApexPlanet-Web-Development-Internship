@@ -25,23 +25,6 @@ Features:
 - Basic JavaScript interactivity  
 - Responsive layout
 
-🔹 Task 2: Intermediate HTML, CSS, and JavaScript
-
-Technologies Used:
-
--HTML
--CSS
--JavaScript
-
-Features:
-
--Contact form with multiple input fields
--Form validation using JavaScript (required fields & email format)
--Responsive layout 
--Dynamic To-Do List 
--DOM manipulation for adding and removing elements
--Clean and user-friendly UI
-
 📌 Author
 
 Aishwarya Machale
