@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Master</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+
+  <h1>Quiz Master</h1>
+  <p class="subtitle">Select a quiz to begin</p>
+
+  <div class="quiz-selector">
+    <button onclick="startQuiz('html')">HTML Basics</button>
+    <button onclick="startQuiz('javascript')">JavaScript Basics</button>
+    <button onclick="startQuiz('dsa')">DSA</button>
+    <button onclick="startQuiz('oop')">OOP</button>
+    <button onclick="startQuiz('css')">CSS Basics</button>
+  </div>
+
+  <div id="quiz-box" class="hidden">
+    <h2 id="question">Question appears here</h2>
+    <div id="options" class="options"></div>
+    <button id="next-btn" onclick="nextQuestion()" disabled>Next</button>
+  </div>
+
+  <div id="result-box" class="hidden">
+    <h2>Quiz Completed!</h2>
+    <p id="score"></p>
+    <button onclick="restartQuiz()">Take Another Quiz</button>
+  </div>
+
+  <!-- API Feature Added -->
+  <div class="api-box">
+    <button onclick="getJoke()">Get Random Joke</button>
+    <p id="joke"></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
