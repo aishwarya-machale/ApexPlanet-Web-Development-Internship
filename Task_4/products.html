@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products</title>
+
+<link rel="stylesheet" href="style3.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+
+<h1 class="logo">
+<i class="fas fa-store"></i> Products
+</h1>
+
+<div class="controls">
+
+<div class="search-box">
+<i class="fas fa-search"></i>
+<input type="text" id="searchInput" placeholder="Search products">
+</div>
+
+<select id="categoryFilter">
+<option value="all">All Categories</option>
+<option value="electronics">Electronics</option>
+<option value="fashion">Fashion</option>
+<option value="books">Books</option>
+<option value="accessories">Accessories</option>
+</select>
+
+<select id="sortPrice">
+<option value="default">Sort by Price</option>
+<option value="low">Low to High</option>
+<option value="high">High to Low</option>
+</select>
+
+</div>
+</header>
+
+
+<div class="product-container" id="productContainer">
+
+
+<div class="product-card" data-name="Denim Jacket" data-category="fashion" data-price="1999">
+<img src="https://images.unsplash.com/photo-1520975916090-3105956dac38">
+<h3>Denim Jacket</h3>
+<p class="price">₹1999</p>
+<p>Fashion</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Wireless Headphones" data-category="electronics" data-price="2999">
+<img src="https://images.unsplash.com/photo-1583394838336-acd977736f90">
+<h3>Wireless Headphones</h3>
+<p class="price">₹2999</p>
+<p>Electronics</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Backpack" data-category="accessories" data-price="1599">
+<img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62">
+<h3>Backpack</h3>
+<p class="price">₹1599</p>
+<p>Accessories</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Python Programming Book" data-category="books" data-price="899">
+<img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f">
+<h3>Python Programming Book</h3>
+<p class="price">₹899</p>
+<p>Books</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Smart Watch" data-category="electronics" data-price="4999">
+<img src="https://images.unsplash.com/photo-1544117519-31a4b719223d">
+<h3>Smart Watch</h3>
+<p class="price">₹4999</p>
+<p>Electronics</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Running Shoes" data-category="fashion" data-price="2499">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+<h3>Running Shoes</h3>
+<p class="price">₹2499</p>
+<p>Fashion</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="JavaScript Book" data-category="books" data-price="799">
+<img src="https://images.unsplash.com/photo-1512820790803-83ca734da794">
+<h3>JavaScript Book</h3>
+<p class="price">₹799</p>
+<p>Books</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Sunglasses" data-category="accessories" data-price="999">
+<img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083">
+<h3>Sunglasses</h3>
+<p class="price">₹999</p>
+<p>Accessories</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Laptop" data-category="electronics" data-price="55000">
+<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+<h3>Laptop</h3>
+<p class="price">₹55000</p>
+<p>Electronics</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Jeans" data-category="fashion" data-price="1499">
+<img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246">
+<h3>Jeans</h3>
+<p class="price">₹1499</p>
+<p>Fashion</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Artificial Intelligence Book" data-category="books" data-price="999">
+<img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353">
+<h3>Artificial Intelligence Book</h3>
+<p class="price">₹999</p>
+<p>Books</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="Cap" data-category="accessories" data-price="499">
+<img src="https://images.unsplash.com/photo-1521369909029-2afed882baee">
+<h3>Cap</h3>
+<p class="price">₹499</p>
+<p>Accessories</p>
+<button class="add-btn">Add to Cart</button>
+</div>
+
+</div>
+
+
+<div class="cart">
+<i class="fas fa-shopping-cart"></i>
+<span id="cartCount">0</span>
+</div>
+
+
+<footer class="footer">
+
+<div class="footer-content">
+
+<p class="copyright">
+<i class="far fa-copyright"></i>
+2026 Aishwarya Machale. All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+
+
+<script src="products.js"></script>
+
+</body>
+</html>
