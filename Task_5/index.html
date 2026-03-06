@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FashionStudioX | Online Fashion Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="logo.png" alt="FashionStudioX Logo">
+      <span>FashionStudioX</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="men.html">Men</a></li>
+      <li><a href="women.html">Women</a></li>
+      <li><a href="newarrival.html">New Arrivals</a></li> 
+    </ul>
+
+    <div class="nav-actions">
+      <a href="login.html" class="nav-btn">Login</a>
+      <a href="cart.html" class="cart-icon">🛒</a>
+    </div>
+  </nav>
+  
+  <section class="background">
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Style That Speaks</h1>
+      <p>Discover the latest trends in fashion</p>
+      <a href="login.html" class="hero-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="categories">
+    <div class="category-card">Men Fashion</div>
+    <div class="category-card">Women Fashion</div>
+    <div class="category-card">Accessories</div>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="product1.webp" alt="">
+        <h3>Men Jacket</h3>
+        <p>₹1999</p>
+        <button onclick="addToCart('Men Jacket', 1999)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="product2.jpg" alt="">
+        <h3>Women Dress</h3>
+        <p>₹2499</p>
+        <button onclick="addToCart('Women Dress', 2499)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="product3.webp" alt="">
+        <h3>Stylish Shoes</h3>
+        <p>₹1499</p>
+        <button onclick="addToCart('Stylish Shoes', 1499)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="product4.jpg" alt="">
+        <h3>Women Dress</h3>
+        <p>₹1099</p>
+        <button onclick="addToCart('Men Jacket', 1999)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="product5.jpg" alt="">
+        <h3>Stylish Watch</h3>
+        <p>₹3499</p>
+        <button onclick="addToCart('Women Dress', 3499)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="product6.webp" alt="">
+        <h3>Mens Formal Wear</h3>
+        <p>₹2499</p>
+        <button onclick="addToCart('Mens Formal Wear', 2499)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 FashionStudioX. All Rights Reserved.</p>
+    <br>
+    <p>For any issues feel free to Contact us on fashionstudiox@gmail.com</p>
+  </footer>
+  <script src="cart.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up | FashionStudioX</title>
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+  <div class="auth-container">
+    <form class="auth-form" id="signupForm">
+      <h2>Create Account ✨</h2>
+      <p>Join FashionStudioX</p>
+
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+      <button type="submit">Sign Up</button>
+
+      <div class="divider">
+        <span>Already have an account?</span>
+      </div>
+
+      <a href="login.html" class="signup-btn">Login</a>
+
+      <p id="signupError" class="error"></p>
+    </form>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+</html>

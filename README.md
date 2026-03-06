@@ -81,6 +81,27 @@ Features:
 - To-Do List with dynamic task management using DOM manipulation
 
 
+🔹 Task 5: Final Project and Optimization 
+
+Built a complete E-Commerce Web Application “FashionStudioX” and optimized it for performance, responsiveness, and cross-browser compatibility.
+
+Technologies Used:
+
+- HTML
+- CSS
+- JavaScript
+
+Features:
+
+- Fully functional E-Commerce website (FashionStudioX)
+- Multiple product sections including Men, Women, and New Arrivals
+- User Authentication pages (Login & Signup)
+- Shopping Cart functionality for adding products
+- Modern and responsive UI design
+- Faster page loading and improved user experience 
+- Cross-browser compatibility (Chrome, Firefox, Safari)
+- Mobile responsive layout for different screen sizes
+
 📌 Author
 
 Aishwarya Machale
